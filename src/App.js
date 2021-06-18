@@ -16,7 +16,7 @@ constructor(){
   render() {
     return (
       <div className="container">
-        <textarea id="inc" rows="3" onKeyUp={ this.onKeyUpHandler }></textarea>
+        <textarea id="inc" rows="3" onChange={ this.onKeyUpHandler }></textarea>
         <div className="counter">{this.state.contador}</div>
       </div>
     );
